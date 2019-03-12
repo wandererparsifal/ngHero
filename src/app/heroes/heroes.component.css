@@ -1,0 +1,22 @@
+li:nth-of-type(odd) {
+  background: #00ccff;
+}
+
+li:nth-of-type(even) {
+  background: #ffee00;
+}
+
+li:hover {
+  background: #00ffcc;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 4vh;
+  height: 4vh;
+}
