@@ -1,14 +1,14 @@
-li:nth-of-type(odd) {
-  background: #00ccff;
-}
-
-li:nth-of-type(even) {
-  background: #ffee00;
+.selected {
+  background: #BBD8DC;
 }
 
 li:hover {
-  background: #00ffcc;
+  background: #00ffee;
   cursor: pointer;
+}
+
+li.selected:hover {
+  background-color: #00ddcc;
 }
 
 ul {
